@@ -9,11 +9,13 @@ public class Teacher {
     private String qualification;
     private String gender;
 
+    //some lines added
     // getter - it gets the value
     public int getId() {
         return id;
     }
 
+    //some lines added
     // setter - it sets/assigns the value
     public void setId(int id) {
         this.id = id;
@@ -54,11 +56,9 @@ public class Teacher {
     public String getGender() {
         return gender;
     }
-
     public void setGender(String gender) {
         this.gender = gender;
     }
-
     @Override
     public String toString() {
         return "Teacher{" +
